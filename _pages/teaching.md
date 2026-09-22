@@ -1,6 +1,3 @@
-Here it is. Copy everything below, including the lines between the `---` at the top:
-
-```markdown
 ---
 layout: archive
 title: "Teaching"
@@ -25,6 +22,3 @@ I have eight years of experience teaching economics, across undergraduate module
 * **Teaching Assistant to Prof. Pablo Guerron**, *Economic Growth* (2019–2020)
   * Led weekly after-class tutorials for five student groups.
   * Supervised group coursework structured as a research project, guiding students through to completion.
-```
-
-Paste it into a new file named `teaching.md` in the `_pages` folder, after deleting `teaching.html`.
