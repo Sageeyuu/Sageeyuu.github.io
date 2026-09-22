@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Jinghui Yu"
 title_separator          : "-"
 name                     : &name "Your Name"
-description              : &description "Personal Academic Website"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Statistician and economist at Lancaster University"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://sageeyuu.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "Jinghui Yu"
   pronouns         : # example: "she/her"  
-  bio              : "PhD in Economics"
+  bio              : "Statistician, Lancaster University · PhD in Economics"
   location         : "Lancaster, UK"
   employer         : "Lancaster University"
   uri              : # URL
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "www.linkedin.com/in/yu-jinghui-sage" # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
