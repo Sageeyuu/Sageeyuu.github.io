@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 {% include base_path %}
+[**Download my full CV (PDF)**](/files/JinghuiYu_CV_Academia.pdf)
 
 Education
 ======
