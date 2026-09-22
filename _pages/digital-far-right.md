@@ -5,7 +5,7 @@ permalink: /digital-far-right/
 author_profile: true
 ---
 
-*UKRI-funded project · Department of Linguistics and English Language, Lancaster University · 2026–2027*
+*UKRI-funded project · Department of Linguistics and English Language, Lancaster University*
 
 ## About the project
 
