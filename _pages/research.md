@@ -23,7 +23,7 @@ author_profile: true
 
 <div class="paper">
   <p class="paper-title">Pre-Grant Patents and Innovation Diffusion</p>
-  <p class="paper-meta"><a href="#">Paper</a></p>
+    <p class="paper-meta"><a href="/files/Yu_PreGrantPatents.pdf">Paper</a></p>
   <div class="paper-toggles">
     <details>
       <summary>Abstract</summary>
