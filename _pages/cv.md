@@ -11,35 +11,29 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. in Economics, Lancaster University, UK, 2026
 
-Work experience
+Employment
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* **Statistician**, Lancaster University, UK (October 2026 – Present)
+  * Working on the UKRI-funded project *A Multi-Dimensional Understanding of the Digital Far Right*, Department of Linguistics and English Language.
+  * Developing, testing and evaluating statistical methods for analysing zero-inflated and sparse multivariate data, while contributing quantitative and economic perspectives to the project's interdisciplinary research.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* **Doctoral Research Associate**, Department of Economics, Lancaster University, UK (October 2022 – October 2026)
+  * Conducted doctoral research in international macroeconomics, innovation, productivity and technology diffusion, using applied econometric methods including structural VARs, local projections and panel-data techniques.
+  * Undergraduate teaching, student support and participation in departmental research activities.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+Research experience
+======
+* **Junior Research Fellow**, Advance Macro Research (AMR), UK (Winter 2025 – Present)
+* **Research Fellow**, Financial Econometrics, Asset Markets and Macroeconomic Policy, Lancaster University, UK (October 2022 – Present)
+* **Visiting Research Fellow**, Cañada-Blanch Centre, London School of Economics and Political Science, UK (Spring 2025)
+* **Policy Intern**, Digitalisation and Future Skill Research Group, Good City Foundation, Hong Kong SAR (Summer 2021)
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Software: R, MATLAB, Stata, Python, EViews, RATS
+* Teaching: Associate Fellow of Advance HE (AFHEA)
 
 Publications
 ======
@@ -59,6 +53,6 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
+Service
 ======
-* Currently signed in to 43 different slack teams
+* Referee, *Journal of Geoeconomics* (August 2025 – Present)
