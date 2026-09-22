@@ -2,12 +2,15 @@
 
 main:
 
-  - title: "About"
+  - title: "About Me"
     url: /
     
   - title: "Research"
     url: /research/
 
+  - title: "Current Project"
+    url: /digital-far-right/
+    
   - title: "Talks"
     url: /talks/
 
