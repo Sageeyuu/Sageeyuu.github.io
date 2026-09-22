@@ -13,10 +13,12 @@ redirect_from:
 Education
 ======
 * Ph.D. in Economics, Lancaster University, UK, 2026
+* MSc   in Economics, Lancaster University, UK, 2022
+* BSc   in Economics, Central South University of Forestry and Technology, China, 2020
 
 Employment
 ======
-* **Statistician**, Lancaster University, UK (October 2026 – Present)
+* **Research Associate - Statistician**, Lancaster University, UK (October 2026 – Present)
   * Working on the UKRI-funded project *A Multi-Dimensional Understanding of the Digital Far Right*, Department of Linguistics and English Language.
   * Developing, testing and evaluating statistical methods for analysing zero-inflated and sparse multivariate data, while contributing quantitative and economic perspectives to the project's interdisciplinary research.
 
@@ -36,24 +38,6 @@ Skills
 * Software: R, MATLAB, Stata, Python, EViews, RATS
 * Teaching: Associate Fellow of Advance HE (AFHEA)
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
 Service
 ======
 * Referee, *Journal of Geoeconomics* (August 2025 – Present)
