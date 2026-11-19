@@ -79,4 +79,55 @@ html:not([data-theme="dark"]) {
 }
 
 /* Remove the footer (Follow / Powered by / Sitemap) */
-.page__footer { display: none; }
+.page__footer { display: none !important; }
+
+/* ===== Home page: Lishu-style header ===== */
+/* Hide the sidebar and the "About" title on the home page, and use the full width */
+#main:has(.hero) .sidebar,
+#main:has(.hero) .page__title { display: none; }
+#main:has(.hero) .page {
+  width: 100%;
+  max-width: 980px;
+  float: none;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero-name {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: var(--my-heading);
+  margin: 0.5rem 0 0.3rem;
+  line-height: 1.2;
+}
+.hero-tagline {
+  text-align: center;
+  color: #6b7680;
+  font-size: 1.1rem;
+  margin: 0 0 2.5rem;
+}
+.hero {
+  display: flex;
+  gap: 2.75rem;
+  align-items: flex-start;
+}
+.hero img {
+  width: 230px;
+  max-width: 230px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+.hero > div p:first-child { margin-top: 0; }
+
+html[data-theme="dark"] .hero-name { color: inherit; }
+
+@media (max-width: 760px) {
+  .hero-name { font-size: 2.1rem; }
+  .hero { flex-direction: column; align-items: center; gap: 1.5rem; }
+  .hero img { width: 180px; }
+}
