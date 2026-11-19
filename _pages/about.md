@@ -11,7 +11,13 @@ redirect_from:
 <p class="hero-tagline">Economist · Research Associate (Statistician), Lancaster University</p>
 
 <div class="hero">
-  <img src="/images/profile.png" alt="Jinghui Yu">
+  <div class="hero-side">
+    <img src="/images/profile.png" alt="Jinghui Yu">
+    <p class="hero-contact">
+      <a href="mailto:j.yu17@lancaster.ac.uk">j.yu17@lancaster.ac.uk</a><br>
+      <a href="/cv/">CV</a>
+    </p>
+  </div>
   <div markdown="1">
 
 I am an applied economist and statistician at **Lancaster University**, where I hold a PhD in Economics. My research sits at the intersection of **international macroeconomics, innovation and productivity**, using applied econometric and time-series methods to study how technology spreads across countries and sectors, and what it means for productivity and labour markets. My working paper, [*Pre-Grant Patents and Innovation Diffusion*](/research/), shows that international technology spillovers run mainly through the expansion of the global stock of knowledge rather than through trade.
@@ -21,8 +27,6 @@ I currently work as a Research Associate – Statistician on the UKRI-funded pro
 My work is strongly **policy-oriented**. I have presented my research to the UK **Department for Business and Trade**, the **National Institute of Economic and Social Research (NIESR)**, the **Competition and Markets Authority (CMA)** and the **Economic Statistics Centre of Excellence (ESCoE)**, and I write [policy briefs](/policy/) on UK productivity, R&amp;D and industrial strategy.
 
 I am also committed to **teaching**. I have eight years of experience teaching economics, across undergraduate modules at Lancaster University and international research-led programmes, and I am an Associate Fellow of Advance HE (AFHEA). More on my [teaching](/teaching/).
-
-[Email](mailto:j.yu17@lancaster.ac.uk) | [CV](/cv/)
 
   </div>
 </div>

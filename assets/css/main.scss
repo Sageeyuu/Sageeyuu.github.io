@@ -140,6 +140,14 @@ html:not([data-theme="dark"]) {
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
 }
 .hero > div p:first-child { margin-top: 0; }
+.hero-side { flex-shrink: 0; width: 190px; }
+.hero-contact {
+  margin: 1rem 0 0 !important;
+  text-align: center;
+  font-size: 0.85em;
+  line-height: 1.8;
+  word-break: break-all;
+}
 
 html[data-theme="dark"] .hero-name { color: inherit; }
 
