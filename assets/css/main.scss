@@ -42,23 +42,41 @@
 
 /* ===== Custom look ===== */
 :root {
-  --my-nav-bg:   #24402f;  /* top bar and footer */
+  --my-nav-bg:   #24402f;  /* top bar */
   --my-nav-text: #f3f5f0;  /* text on the top bar */
-  --my-accent:   #d9a441;  /* gold hover underline */
+  --my-accent:   #d9a441;  /* gold underline under menu links */
   --my-page-bg:  #f6f6f1;  /* page background */
-  --my-heading:  #24402f;  /* your name */
+  --my-heading:  #24402f;  /* headings */
   --my-link:     #3d7a55;  /* links */
 }
 
+/* Light mode only, so the dark-mode toggle still works */
 html:not([data-theme="dark"]) {
   body { background: var(--my-page-bg); }
-  .masthead { background: var(--my-nav-bg); border-bottom: none; }
-  .greedy-nav { background: transparent; }
-  .greedy-nav .visible-links a,
-  .masthead__menu-item--lg a,
-  .greedy-nav button { color: var(--my-nav-text); }
+
+  /* Green top bar: the bar, the nav and each menu item must all be see-through or green */
+  .masthead,
+  .masthead__inner-wrap,
+  .greedy-nav,
+  .greedy-nav button,
+  .masthead__menu-item { background: var(--my-nav-bg); }
+  .masthead::after { display: none; }
+
+  .greedy-nav a,
+  .greedy-nav a:hover,
+  .greedy-nav button,
+  .masthead__menu-item.selected a,
+  .masthead__menu-item.selected a:hover { color: var(--my-nav-text); }
+  .masthead__menu-item.selected a { border-bottom-color: var(--my-accent); }
   .greedy-nav .visible-links a:before { background: var(--my-accent); }
+
+  /* Dropdown on small screens stays light so it is readable */
+  .greedy-nav .hidden-links,
+  .greedy-nav .hidden-links li { background: #ffffff; }
+  .greedy-nav .hidden-links a { color: var(--my-heading); }
+
   .page__content a { color: var(--my-link); }
-  .page__footer { background: var(--my-nav-bg); color: var(--my-nav-text); }
-  .page__footer a, .page__footer-follow a { color: var(--my-nav-text); }
 }
+
+/* Remove the footer (Follow / Powered by / Sitemap) */
+.page__footer { display: none; }
