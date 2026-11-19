@@ -87,7 +87,7 @@ html:not([data-theme="dark"]) {
 #main:has(.hero) .page__title { display: none; }
 #main:has(.hero) .page {
   width: 100%;
-  max-width: 980px;
+  max-width: 920px;
   float: none;
   margin: 0 auto;
   padding: 0 1rem;
@@ -110,12 +110,14 @@ html:not([data-theme="dark"]) {
 }
 .hero {
   display: flex;
-  gap: 2.75rem;
+  gap: 2.5rem;
   align-items: flex-start;
 }
+#main .hero img,
 .hero img {
-  width: 230px;
-  max-width: 230px;
+  width: 190px !important;
+  max-width: 190px !important;
+  height: auto !important;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   flex-shrink: 0;
@@ -129,5 +131,5 @@ html[data-theme="dark"] .hero-name { color: inherit; }
 @media (max-width: 760px) {
   .hero-name { font-size: 2.1rem; }
   .hero { flex-direction: column; align-items: center; gap: 1.5rem; }
-  .hero img { width: 180px; }
+  #main .hero img, .hero img { width: 160px !important; max-width: 160px !important; }
 }
