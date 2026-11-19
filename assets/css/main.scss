@@ -37,3 +37,28 @@
     "layout/sidebar",
     "layout/json_cv"
 ;
+
+
+
+/* ===== Custom look ===== */
+:root {
+  --my-nav-bg:   #24402f;  /* top bar and footer */
+  --my-nav-text: #f3f5f0;  /* text on the top bar */
+  --my-accent:   #d9a441;  /* gold hover underline */
+  --my-page-bg:  #f6f6f1;  /* page background */
+  --my-heading:  #24402f;  /* your name */
+  --my-link:     #3d7a55;  /* links */
+}
+
+html:not([data-theme="dark"]) {
+  body { background: var(--my-page-bg); }
+  .masthead { background: var(--my-nav-bg); border-bottom: none; }
+  .greedy-nav { background: transparent; }
+  .greedy-nav .visible-links a,
+  .masthead__menu-item--lg a,
+  .greedy-nav button { color: var(--my-nav-text); }
+  .greedy-nav .visible-links a:before { background: var(--my-accent); }
+  .page__content a { color: var(--my-link); }
+  .page__footer { background: var(--my-nav-bg); color: var(--my-nav-text); }
+  .page__footer a, .page__footer-follow a { color: var(--my-nav-text); }
+}
