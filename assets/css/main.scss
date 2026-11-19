@@ -81,22 +81,37 @@ html:not([data-theme="dark"]) {
 /* Remove the footer (Follow / Powered by / Sitemap) */
 .page__footer { display: none !important; }
 
+/* Site name in the menu bar in the heading font */
+.masthead__menu-item--lg a {
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 1.3em;
+}
+
 /* ===== Home page: Lishu-style header ===== */
 /* Hide the sidebar and the "About" title on the home page, and use the full width */
 #main:has(.hero) .sidebar,
 #main:has(.hero) .page__title { display: none; }
 #main:has(.hero) .page {
   width: 100%;
-  max-width: 920px;
   float: none;
-  margin: 0 auto;
-  padding: 0 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu bar and page content share the same width, so they line up */
+.masthead__inner-wrap,
+#main {
+  max-width: 1040px !important;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .hero-name {
   text-align: center;
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 2.8rem;
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 3.2rem;
   font-weight: 700;
   color: var(--my-heading);
   margin: 0.5rem 0 0.3rem;
